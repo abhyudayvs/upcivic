@@ -1,38 +1,67 @@
 {
   "project_info": {
-    "project_number": "123456789012",
-    "project_id": "civic-connect-app",
-    "storage_bucket": "civic-connect-app.appspot.com"
+    "project_number": "185816321680",
+    "project_id": "civic-app-9cd69",
+    "storage_bucket": "civic-app-9cd69.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789012:android:abcdef1234567890",
+        "mobilesdk_app_id": "1:185816321680:android:ce3cad895c487b5b50d215",
         "android_client_info": {
-          "package_name": "com.example.civicconnect"
+          "package_name": "com.abhyudayvs.civic"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyABCDEFGHIJKLMNOPQRSTUVWXYZ123456"
+          "current_key": "AIzaSyBtAGcM5SyFA_RRHd3fiBxGbhUKFt8f0Gk"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185816321680:android:008c09508024a98e50d215",
+        "android_client_info": {
+          "package_name": "com.company.civicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtAGcM5SyFA_RRHd3fiBxGbhUKFt8f0Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185816321680:android:b0782309dcb89af950d215",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtAGcM5SyFA_RRHd3fiBxGbhUKFt8f0Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }
-  ]
-} 
+  ],
+  "configuration_version": "1"
+}
