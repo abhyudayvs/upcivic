@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.civicconnect.ui.auth.LoginFragment"
+        android:label="@string/login">
+        <action
+            android:id="@+id/actionLoginFragmentToSignUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/actionLoginFragmentToMainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.civicconnect.ui.auth.SignUpFragment"
+        android:label="@string/sign_up">
+        <action
+            android:id="@+id/actionSignUpFragmentToMainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.civicconnect.ui.main.MainFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/actionMainFragmentToIssuesFragment"
+            app:destination="@id/issuesFragment" />
+        <action
+            android:id="@+id/actionMainFragmentToPollsFragment"
+            app:destination="@id/pollsFragment" />
+        <action
+            android:id="@+id/actionMainFragmentToRepresentativesFragment"
+            app:destination="@id/representativesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/issuesFragment"
+        android:name="com.example.civicconnect.ui.issues.IssuesFragment"
+        android:label="@string/issues">
+        <action
+            android:id="@+id/actionIssuesFragmentToIssueDetailsFragment"
+            app:destination="@id/issueDetailsFragment" />
+        <action
+            android:id="@+id/actionIssuesFragmentToCreateIssueFragment"
+            app:destination="@id/createIssueFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/issueDetailsFragment"
+        android:name="com.example.civicconnect.ui.issues.IssueDetailsFragment"
+        android:label="@string/issue_details">
+        <argument
+            android:name="issueId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createIssueFragment"
+        android:name="com.example.civicconnect.ui.issues.CreateIssueFragment"
+        android:label="@string/create_issue" />
+
+    <fragment
+        android:id="@+id/pollsFragment"
+        android:name="com.example.civicconnect.ui.polls.PollsFragment"
+        android:label="@string/polls">
+        <action
+            android:id="@+id/actionPollsFragmentToPollDetailsFragment"
+            app:destination="@id/pollDetailsFragment" />
+        <action
+            android:id="@+id/actionPollsFragmentToCreatePollFragment"
+            app:destination="@id/createPollFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pollDetailsFragment"
+        android:name="com.example.civicconnect.ui.polls.PollDetailsFragment"
+        android:label="@string/poll_details">
+        <argument
+            android:name="pollId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createPollFragment"
+        android:name="com.example.civicconnect.ui.polls.CreatePollFragment"
+        android:label="@string/create_poll" />
+
+    <fragment
+        android:id="@+id/representativesFragment"
+        android:name="com.example.civicconnect.ui.representatives.RepresentativesFragment"
+        android:label="@string/representatives">
+        <action
+            android:id="@+id/actionRepresentativesFragmentToRepresentativeDetailsFragment"
+            app:destination="@id/representativeDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/representativeDetailsFragment"
+        android:name="com.example.civicconnect.ui.representatives.RepresentativeDetailsFragment"
+        android:label="@string/representative_details">
+        <argument
+            android:name="representativeId"
+            app:argType="string" />
+    </fragment>
+</navigation> 

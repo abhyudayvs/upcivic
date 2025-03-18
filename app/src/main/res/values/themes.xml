@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CivicConnect" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Surface colors. -->
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+
+        <!-- Error colors. -->
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+
+        <!-- Outline colors. -->
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOutlineVariant">@color/md_theme_light_outlineVariant</item>
+
+        <!-- Component styles -->
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.CivicConnect.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.CivicConnect.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.CivicConnect.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.CivicConnect.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.CivicConnect.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.CivicConnect.HeadlineSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.CivicConnect.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.CivicConnect.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.CivicConnect.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.CivicConnect.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.CivicConnect.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.CivicConnect.LabelSmall</item>
+    </style>
+</resources>

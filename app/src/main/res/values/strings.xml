@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">upcivic</string>
+    <string name="add_annotation">Add Annotation</string>
+    <string name="export_point">Export Data Point</string>
+    <string name="compare_with_previous">Compare with Previous</string>
+    <string name="annotation_hint">Enter annotation text</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="highlight_peaks">Highlight Peaks</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="reset">Reset</string>
+    <string name="trend_percentage_format">%.1f%%</string>
+    <string name="positive_change">+%.1f%%</string>
+    <string name="negative_change">%.1f%%</string>
+    <string name="close">Close</string>
+</resources>

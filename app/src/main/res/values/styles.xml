@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.CivicConnect.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">8dp</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.CivicConnect.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <style name="Widget.CivicConnect.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- Text Input Styles -->
+    <style name="Widget.CivicConnect.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Bottom Navigation Styles -->
+    <style name="Widget.CivicConnect.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="elevation">8dp</item>
+    </style>
+</resources> 
